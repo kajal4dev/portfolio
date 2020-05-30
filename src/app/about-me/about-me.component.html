@@ -1,0 +1,20 @@
+<div style="height:90%;display:flex;flex-direction:row">
+    <div class="sidebar">
+         <div style="margin-top:50px;">   
+            <a [routerLink]="['/about-me/education']" routerLinkActive="link-active">Education</a> 
+       </div>
+        <div style="margin-top:50px;">
+            <a [routerLink]="['/about-me/hobbies']" routerLinkActive="link-active">Hobbies</a>
+        </div>
+        <div style="margin-top:50px;">
+            <a [routerLink]="['/about-me/favouties']" routerLinkActive="link-active">Favourites</a>
+        </div>
+        <div style="margin-top:50px;">
+            <a [routerLink]="['/about-me/mamories']" routerLinkActive="link-active">Memories</a>
+        </div>
+    </div>
+    <div style="width:80%;height:100%;margin-top:100px;">
+        <router-outlet></router-outlet>
+    </div>
+    
+</div>

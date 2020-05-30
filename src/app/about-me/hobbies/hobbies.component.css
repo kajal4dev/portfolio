@@ -1,0 +1,25 @@
+.header{
+    font-size:32px !important;
+    color:#FF5E67 !important;
+}
+.hobbies1{
+    font-size:20px;
+    text-align:left;
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
+}
+.hobbies2{
+    font-size:20px;
+    align-content:flex-end;
+    /* display:flex;
+    flex-direction:row; */
+    margin-left:10px;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 21px;
+    width: 290%;
+    margin-left: 210%;
+}
