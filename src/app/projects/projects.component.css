@@ -1,18 +1,18 @@
 .example-card {
-max-width: 124px;
-margin-left:4%;
+    max-width: 124px;
+    margin-left: 4%;
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-   padding: 7px; 
-  width: 227%;
-  margin-top:10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+    margin-top: 10px;
+    width: 95%;
 }
 
-.data{
-    font-size:20px;
-    text-align:left;
-    margin-left:-15px;
+.data {
+    font-size: 15px;
+    text-align: left;
+    margin-left: -15px;
 }
