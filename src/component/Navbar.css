@@ -1,0 +1,10 @@
+.text-color{
+    color: #fff;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end
+}
